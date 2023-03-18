@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div class="h1">
+        <h1>REGISTRATION FORM</h1>
+    </div>
+    <marquee>FILL OUT THE FORM.</marquee>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Form</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+.h1 {
+    padding: 150px;
+    text-align:center;
+    background: black;
+    color: white;
+    }
+</style>
+<br>
+
+<form action="next.php" method="POST">
+<body>
+    <div>
+        <label>First Name</label>
+        <input type="text" name="fname">
+        <br>
+    </div>
+    <br>
+    <div>
+        <label>Last Name</label>
+        <input type="text" name="lname">
+    </div>
+    <br>
+    <div>
+        <label>Date of Birth</label>
+        <input type="date" name="dob">
+    </div>
+    <br>
+    <div>
+        <label>Phone Number</label>
+        <input type="number" name="phno">
+    </div>
+    <br>
+    <div>
+        <label>Message</label>
+        <textarea></textarea>
+    </div>
+    <br>
+    <div>
+        <label>Gender</label>
+        <select name="gen">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+    </div>
+    <br>
+<input type="submit" name="submit" value="submit">
+<input type="reset" name="reset" value="reset">
+</form>
+
+<div class="container">
+<input type="checkbox" name="" id="">
+<div class="links">
+<a href="#" style="--i:1"><i class="fab fa-facebook"></i></a>
+<a href="#" style="--i:2"><i class="fab fa-instagram"></i></a>
+<a href="#" style="--i:3"><i class="fab fa-twitter"></i></a>
+<a href="#" style="--i:4"><i class="fab fa-whatsapp"></i></a>
+</div>
+</div>
+</body>
+</html>
